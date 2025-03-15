@@ -7,7 +7,7 @@ console.log(saturdayFun("got to the beach"));
 
 
 const mondayWork = (activity = "go to the office") => {
-    return `On Monday, i got to ${activity}!`;
+    return `This Monday, I will ${activity}!`;
 
 };
 
