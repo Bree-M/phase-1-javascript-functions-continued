@@ -6,13 +6,15 @@ console.log(saturdayFun());
 console.log(saturdayFun("got to the beach"));
 
 
-const mondayWork = (activity = "go to the office") => {
-    return `This Monday, I will ${activity}!`;
+const mondayWork = (task = "go to the office") => {
+    return `This Monday, I will ${task}.`;
 
 };
 
 console.log(mondayWork());
-console.log(mondayWork("workout when i wake up"));
+console.log(mondayWork("work from home"));
+
+
 
 const wrapAdjective = (flair = "*") => {
     return (adjective = "special") => {
